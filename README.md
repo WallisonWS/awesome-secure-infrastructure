@@ -14,6 +14,13 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 > **Dica de Cibersegurança:** Desative o protocolo WPS nos seus Access Points UniFi e em qualquer roteador. O WPS é vulnerável a ataques de força bruta rápidos e fáceis.
 <!-- DAILY_TIP_END -->
 
+<!-- CLOUDFLARE_IPS_START -->
+### 🌐 IPs Cloudflare Atualizados
+*   **Última verificação automática:** 24/05/2026 as 10:23 (UTC)
+*   💾 **[FortiGate CLI Config Script](ips/cloudflare_fortigate.conf)**: Objeto de endereços e grupo prontos para o FortiOS.
+*   💾 **[pfSense Alias Network List](ips/cloudflare_pfsense_aliases.txt)**: Lista limpa de subredes IPv4 e IPv6 para colar no alias do pfSense.
+<!-- CLOUDFLARE_IPS_END -->
+
 ---
 
 ## 🏗️ Arquitetura de Rede Segura

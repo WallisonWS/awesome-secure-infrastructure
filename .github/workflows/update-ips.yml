@@ -1,0 +1,40 @@
+name: Update Cloudflare IPs
+
+on:
+  schedule:
+    # Roda automaticamente a cada 12 horas
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+    # Permite rodar manualmente
+
+jobs:
+  update-ips:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Cloudflare IP Scriptor
+        run: python scripts/update_cloudflare_ips.py
+
+      - name: Commit and Push Changes
+        run: |
+          if git diff --quiet README.md ips/; then
+            echo "Nenhuma alteracao nos IPs do Cloudflare."
+          else
+            echo "Novas subredes detectadas ou arquivos atualizados. Commitando..."
+            git config --global user.email "wallisonoficial85@gmail.com"
+            git config --global user.name "WallisonWS"
+            git add README.md ips/
+            git commit -m "chore: update cloudflare ip blocks config [skip ci]"
+            git push
+            echo "✅ Configs de IPs atualizadas com sucesso no GitHub!"
+          fi
