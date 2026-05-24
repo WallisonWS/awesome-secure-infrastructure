@@ -1,0 +1,40 @@
+name: Update Threat Intelligence Feed
+
+on:
+  schedule:
+    # Roda automaticamente a cada 12 horas (gerando commits e contribuições constantes na nuvem)
+    - cron: '30 */12 * * *'
+  workflow_dispatch:
+    # Permite rodar manualmente
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Threat Feed Scriptor
+        run: python scripts/update_threat_feed.py
+
+      - name: Commit and Push Changes
+        run: |
+          if git diff --quiet README.md feeds/; then
+            echo "Nenhuma alteracao no Threat Feed de IPs."
+          else
+            echo "Novos IPs maliciosos detectados no feed. Commitando..."
+            git config --global user.email "wallisonoficial85@gmail.com"
+            git config --global user.name "WallisonWS"
+            git add README.md feeds/
+            git commit -m "chore: update active malicious IP threat feed [skip ci]"
+            git push
+            echo "✅ Threat Feed de IPs atualizado com sucesso no GitHub!"
+          fi

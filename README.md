@@ -21,6 +21,16 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 *   💾 **[pfSense Alias Network List](ips/cloudflare_pfsense_aliases.txt)**: Lista limpa de subredes IPv4 e IPv6 para colar no alias do pfSense.
 <!-- CLOUDFLARE_IPS_END -->
 
+<!-- THREAT_FEED_START -->
+### 🛡️ Threat Intelligence IP Feed (Blocklist Ativa)
+*   **Última atualização automática:** 24/05/2026 as 10:40 (UTC)
+*   **IPs Maliciosos Ativos no Feed:** `1500`
+*   🔗 **URL do Feed Raw (Copie para seu Firewall):** `https://raw.githubusercontent.com/WallisonWS/awesome-secure-infrastructure/main/feeds/blocklist-active.txt`
+*   ⚙️ **Como usar no seu Firewall:**
+    *   **FortiGate:** Vá em *Security Fabric* -> *External Connectors* -> clique em *Create New* -> *IP Address* -> Insira a URL Raw acima e configure a frequência de atualização. Agora use esse conector em regras de firewall de bloqueio.
+    *   **pfSense:** Adicione no pacote *pfBlockerNG* na aba *IP* -> *IPv4* como uma nova lista de feed usando a URL Raw acima.
+<!-- THREAT_FEED_END -->
+
 ---
 
 ## 🏗️ Arquitetura de Rede Segura
