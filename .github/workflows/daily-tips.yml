@@ -2,8 +2,8 @@ name: Update Daily Security Tip
 
 on:
   schedule:
-    # Roda automaticamente todos os dias à meia-noite UTC (21:00 no horário de Brasília)
-    - cron: '0 0 * * *'
+    # Roda automaticamente a cada 12 horas (gerando 2 commits por dia)
+    - cron: '0 */12 * * *'
   workflow_dispatch:
     # Permite rodar o workflow manualmente pelo painel do GitHub a qualquer momento
 
