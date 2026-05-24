@@ -44,7 +44,7 @@ def update_readme():
     readme_path = "README.md"
     
     if not os.path.exists(readme_path):
-        print(f"❌ Erro: Arquivo {readme_path} não encontrado no diretório atual.")
+        print(f"[DICA] Erro: Arquivo {readme_path} nao encontrado no diretorio atual.")
         return
         
     tip = get_tip_of_the_day()
@@ -57,7 +57,7 @@ def update_readme():
 > {tip}
 <!-- DAILY_TIP_END -->"""
     
-    print(f"⚡ Atualizando a dica para o dia {date_str}...")
+    print(f"[DICA] Atualizando a dica para o dia {date_str}...")
     
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -72,13 +72,13 @@ def update_readme():
         new_content = before + tip_block + after
     else:
         # Se as tags não existirem, adiciona ao final do arquivo ou após uma introdução
-        print("⚠️ Tags de dica diária não encontradas. Adicionando ao final do README.")
+        print("[DICA] Tags nao encontradas. Adicionando ao final do README.")
         new_content = content + "\n\n" + tip_block
         
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(new_content)
         
-    print("✅ README.md atualizado com a dica diária!")
+    print("[DICA] README.md atualizado com sucesso!")
 
 if __name__ == "__main__":
     update_readme()

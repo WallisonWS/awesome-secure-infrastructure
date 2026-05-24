@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (Dica do Dia):**
-> Esta dica será atualizada diariamente de forma automática pela nuvem do GitHub Actions. Fique de olho para novos insights de segurança!
+> **Dica de Infraestrutura & Segurança (24/05/2026):**
+> **Dica de Cibersegurança:** Desative o protocolo WPS nos seus Access Points UniFi e em qualquer roteador. O WPS é vulnerável a ataques de força bruta rápidos e fáceis.
 <!-- DAILY_TIP_END -->
 
 ---
