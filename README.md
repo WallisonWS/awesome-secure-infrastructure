@@ -8,6 +8,12 @@ Este repositório contém guias práticos, referências de comandos (Cheat Sheet
 
 O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros de rede um roteiro rápido e direto para implementar o modelo **Zero Trust** no ambiente local (On-Premises), garantindo isolamento total de dispositivos IoT/Câmeras e gerenciamento centralizado de políticas de tráfego.
 
+<!-- DAILY_TIP_START -->
+> [!TIP]
+> **Dica de Infraestrutura & Segurança (Dica do Dia):**
+> Esta dica será atualizada diariamente de forma automática pela nuvem do GitHub Actions. Fique de olho para novos insights de segurança!
+<!-- DAILY_TIP_END -->
+
 ---
 
 ## 🏗️ Arquitetura de Rede Segura
@@ -78,6 +84,8 @@ Para facilitar a administração do dia a dia, criamos cheat sheets com os coman
 
 * 🔌 **[Aruba Switches CLI Cheat Sheet](aruba-cheat-sheet.md):** Comandos de configuração de VLANs, modo Access/Trunk, LACP e monitoramento de portas.
 * 🛡️ **[FortiGate CLI Cheat Sheet](fortigate-cheat-sheet.md):** Comandos de depuração, gerenciamento de rotas, monitoramento de túneis VPN e troubleshooting de pacotes.
+* 🧱 **[pfSense CLI & Console Cheat Sheet](pfsense-cheat-sheet.md):** Comandos do shell FreeBSD, diagnósticos de firewall e controle de serviços no pfSense.
+* 🔑 **[Active Directory PowerShell Cheat Sheet](active-directory-cheat-sheet.md):** Cmdlets de PowerShell para gerenciamento de usuários, grupos, computadores e auditoria de segurança no AD.
 
 ---
 

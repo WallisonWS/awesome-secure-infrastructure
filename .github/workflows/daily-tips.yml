@@ -1,0 +1,44 @@
+name: Update Daily Security Tip
+
+on:
+  schedule:
+    # Roda automaticamente todos os dias à meia-noite UTC (21:00 no horário de Brasília)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Permite rodar o workflow manualmente pelo painel do GitHub a qualquer momento
+
+jobs:
+  update-tip:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Concede permissão de escrita para que o workflow possa commitar e fazer push
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Tip Updater Script
+        run: python scripts/update_daily_tip.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Verifica se o arquivo README.md foi alterado
+          if git diff --quiet README.md; then
+            echo "Nenhuma alteração no README.md."
+          else
+            echo "Alterações detectadas. Commitando nova dica..."
+            # Configura o Git com os dados do usuário para vincular a contribuição no seu gráfico do GitHub
+            git config --global user.email "wallisonoficial85@gmail.com"
+            git config --global user.name "WallisonWS"
+            
+            # Adiciona, commita e faz push
+            git add README.md
+            git commit -m "chore: update daily security tip [skip ci]"
+            git push
+            echo "✅ Dica diária atualizada com sucesso no GitHub!"
+          fi
