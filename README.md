@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (29/05/2026):**
-> **Dica de pfSense:** Se a Web GUI do seu pfSense travar ou não carregar, acesse a CLI/Shell via SSH e escolha a opção `11` para reiniciar o servidor WebConfigurator sem precisar reiniciar todo o firewall.
+> **Dica de Infraestrutura & Segurança (30/05/2026):**
+> **Dica de FortiGate:** Ative o recurso **SD-WAN** para balancear carga e garantir redundância ativa entre múltiplos links de internet (Ex: Fibra Principal e Link de Backup).
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
