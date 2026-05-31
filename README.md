@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (30/05/2026):**
-> **Dica de FortiGate:** Ative o recurso **SD-WAN** para balancear carga e garantir redundância ativa entre múltiplos links de internet (Ex: Fibra Principal e Link de Backup).
+> **Dica de Infraestrutura & Segurança (31/05/2026):**
+> **Dica de Active Directory:** O cmdlet `Unlock-ADAccount -Identity <usuario>` é o método mais rápido para desbloquear a conta de um usuário bloqueado após errar a senha.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
