@@ -16,7 +16,7 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- CLOUDFLARE_IPS_START -->
 ### 🌐 IPs Cloudflare Atualizados
-*   **Última verificação automática:** 31/05/2026 as 13:57 (UTC)
+*   **Última verificação automática:** 01/06/2026 as 04:50 (UTC)
 *   💾 **[FortiGate CLI Config Script](ips/cloudflare_fortigate.conf)**: Objeto de endereços e grupo prontos para o FortiOS.
 *   💾 **[pfSense Alias Network List](ips/cloudflare_pfsense_aliases.txt)**: Lista limpa de subredes IPv4 e IPv6 para colar no alias do pfSense.
 <!-- CLOUDFLARE_IPS_END -->
