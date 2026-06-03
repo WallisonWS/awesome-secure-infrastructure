@@ -23,7 +23,7 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- THREAT_FEED_START -->
 ### 🛡️ Threat Intelligence IP Feed (Blocklist Ativa)
-*   **Última atualização automática:** 02/06/2026 as 17:02 (UTC)
+*   **Última atualização automática:** 03/06/2026 as 05:27 (UTC)
 *   **IPs Maliciosos Ativos no Feed:** `1500`
 *   🔗 **URL do Feed Raw (Copie para seu Firewall):** `https://raw.githubusercontent.com/WallisonWS/awesome-secure-infrastructure/main/feeds/blocklist-active.txt`
 *   ⚙️ **Como usar no seu Firewall:**
