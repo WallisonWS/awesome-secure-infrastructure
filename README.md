@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (22/06/2026):**
-> **Dica de Cibersegurança:** Restrinja o tráfego inter-VLAN. Computadores de usuários comuns não precisam ter acesso direto às portas de gerenciamento de switches, firewalls e NVRs.
+> **Dica de Infraestrutura & Segurança (23/06/2026):**
+> **Dica de UniFi:** Ative o **Client Isolation** (Isolamento de Cliente) na sua rede Wi-Fi de visitantes para impedir que os celulares e notebooks conversem entre si na mesma rede sem fio.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
