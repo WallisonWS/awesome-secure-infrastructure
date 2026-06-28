@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (27/06/2026):**
-> **Dica de Aruba:** Mantenha sempre o firmware dos switches atualizado para corrigir bugs críticos de rede e brechas de cibersegurança.
+> **Dica de Infraestrutura & Segurança (28/06/2026):**
+> **Dica de Cibersegurança:** Implemente a política de privilégio mínimo. Nenhum desenvolvedor ou usuário comum deve possuir permissões de administrador local nas estações de trabalho.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
