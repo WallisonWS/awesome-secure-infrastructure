@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (29/06/2026):**
-> **Dica de FortiGate:** Sempre use o comando `diagnose sniffer packet any 'host <IP>' 4 10` para capturar pacotes de um dispositivo específico e entender se o tráfego está chegando no firewall.
+> **Dica de Infraestrutura & Segurança (30/06/2026):**
+> **Dica de Aruba:** Use a flag `lacp` ao criar trunks de portas físicas (`trunk 21-22 trk1 lacp`) para garantir negociação dinâmica de links e evitar loops físicos acidentais na rede.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
