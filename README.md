@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (04/07/2026):**
-> **Dica de FortiGate:** Para monitorar o tráfego da VPN IPsec em tempo real pela CLI, utilize o comando `get vpn ipsec tunnel details`.
+> **Dica de Infraestrutura & Segurança (05/07/2026):**
+> **Dica de Windows Server:** Evite logar diretamente como Administrator nos servidores de produção. Use contas individuais com privilégios administrativos temporários (LAPS) ou delegados.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
