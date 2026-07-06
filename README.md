@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (05/07/2026):**
-> **Dica de Windows Server:** Evite logar diretamente como Administrator nos servidores de produção. Use contas individuais com privilégios administrativos temporários (LAPS) ou delegados.
+> **Dica de Infraestrutura & Segurança (06/07/2026):**
+> **Dica de Switches:** Em portas onde estão conectados computadores de usuários comuns, ative o recurso **PortFast** (no Aruba, chamado de *spanning-tree port-type admin-edge*) para que a porta suba imediatamente sem esperar a convergência do Spanning Tree.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
