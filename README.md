@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (07/07/2026):**
-> **Dica de Cibersegurança:** Nunca permita que câmeras Hikvision ou outros dispositivos IoT conversem diretamente com a internet. Force o acesso remoto sempre através de túneis **SSL-VPN** seguros.
+> **Dica de Infraestrutura & Segurança (08/07/2026):**
+> **Dica de pfSense:** Se a Web GUI do seu pfSense travar ou não carregar, acesse a CLI/Shell via SSH e escolha a opção `11` para reiniciar o servidor WebConfigurator sem precisar reiniciar todo o firewall.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
