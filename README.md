@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (10/07/2026):**
-> **Dica de Active Directory:** O cmdlet `Unlock-ADAccount -Identity <usuario>` é o método mais rápido para desbloquear a conta de um usuário bloqueado após errar a senha.
+> **Dica de Infraestrutura & Segurança (11/07/2026):**
+> **Dica de Redes:** Configure o recurso **DHCP Snooping** nos seus switches de acesso para impedir que roteadores de visitantes ou dispositivos maliciosos distribuam IPs incorretos na rede corporativa.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
