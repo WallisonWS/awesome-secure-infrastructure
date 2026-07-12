@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (11/07/2026):**
-> **Dica de Redes:** Configure o recurso **DHCP Snooping** nos seus switches de acesso para impedir que roteadores de visitantes ou dispositivos maliciosos distribuam IPs incorretos na rede corporativa.
+> **Dica de Infraestrutura & Segurança (12/07/2026):**
+> **Dica de Cibersegurança:** Restrinja o tráfego inter-VLAN. Computadores de usuários comuns não precisam ter acesso direto às portas de gerenciamento de switches, firewalls e NVRs.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
