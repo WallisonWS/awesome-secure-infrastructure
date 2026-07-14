@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (13/07/2026):**
-> **Dica de UniFi:** Ative o **Client Isolation** (Isolamento de Cliente) na sua rede Wi-Fi de visitantes para impedir que os celulares e notebooks conversem entre si na mesma rede sem fio.
+> **Dica de Infraestrutura & Segurança (14/07/2026):**
+> **Dica de Active Directory:** Use o cmdlet `Get-ADUser -Filter "PasswordNeverExpires -eq 'True'"` para auditar quais contas possuem senhas que nunca expiram e reverta as desnecessárias.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
