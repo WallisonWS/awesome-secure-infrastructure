@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (14/07/2026):**
-> **Dica de Active Directory:** Use o cmdlet `Get-ADUser -Filter "PasswordNeverExpires -eq 'True'"` para auditar quais contas possuem senhas que nunca expiram e reverta as desnecessárias.
+> **Dica de Infraestrutura & Segurança (15/07/2026):**
+> **Dica de FortiGate:** Quer testar as regras de firewall na CLI? Utilize `diagnose debug flow trace` para rastrear o fluxo completo do pacote e ver qual regra está bloqueando ou permitindo o tráfego.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
