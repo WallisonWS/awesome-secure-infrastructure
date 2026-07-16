@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (15/07/2026):**
-> **Dica de FortiGate:** Quer testar as regras de firewall na CLI? Utilize `diagnose debug flow trace` para rastrear o fluxo completo do pacote e ver qual regra está bloqueando ou permitindo o tráfego.
+> **Dica de Infraestrutura & Segurança (16/07/2026):**
+> **Dica de pfSense:** Use o utilitário `pfctl -ss` no terminal para inspecionar todas as conexões (estados) ativas que estão atravessando o firewall no momento.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
