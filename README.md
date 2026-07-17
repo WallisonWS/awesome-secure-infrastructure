@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (16/07/2026):**
-> **Dica de pfSense:** Use o utilitário `pfctl -ss` no terminal para inspecionar todas as conexões (estados) ativas que estão atravessando o firewall no momento.
+> **Dica de Infraestrutura & Segurança (17/07/2026):**
+> **Dica de Aruba:** Mantenha sempre o firmware dos switches atualizado para corrigir bugs críticos de rede e brechas de cibersegurança.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
