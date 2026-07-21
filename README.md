@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (20/07/2026):**
-> **Dica de Aruba:** Use a flag `lacp` ao criar trunks de portas físicas (`trunk 21-22 trk1 lacp`) para garantir negociação dinâmica de links e evitar loops físicos acidentais na rede.
+> **Dica de Infraestrutura & Segurança (21/07/2026):**
+> **Dica de pfSense:** Ao isolar uma VLAN de IoT, adicione uma regra de bloqueio explícito no topo do firewall apontando para a rede 'Any' mas permitindo apenas as portas NTP (123) e DNS (53) da sua LAN para os dispositivos funcionarem.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
