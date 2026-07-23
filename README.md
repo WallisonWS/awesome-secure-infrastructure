@@ -23,8 +23,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- THREAT_FEED_START -->
 ### 🛡️ Threat Intelligence IP Feed (Blocklist Ativa)
-*   **Última atualização automática:** 23/07/2026 as 03:54 (UTC)
-*   **IPs Maliciosos Ativos no Feed:** `575`
+*   **Última atualização automática:** 23/07/2026 as 14:41 (UTC)
+*   **IPs Maliciosos Ativos no Feed:** `1500`
 *   🔗 **URL do Feed Raw (Copie para seu Firewall):** `https://raw.githubusercontent.com/WallisonWS/awesome-secure-infrastructure/main/feeds/blocklist-active.txt`
 *   ⚙️ **Como usar no seu Firewall:**
     *   **FortiGate:** Vá em *Security Fabric* -> *External Connectors* -> clique em *Create New* -> *IP Address* -> Insira a URL Raw acima e configure a frequência de atualização. Agora use esse conector em regras de firewall de bloqueio.
