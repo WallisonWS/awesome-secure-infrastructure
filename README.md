@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (22/07/2026):**
-> **Dica de Active Directory:** Use o comando `Search-ADAccount -AccountInactive -TimeSpan 90.00:00:00 -UsersOnly` no PowerShell para auditar e listar contas de usuários sem logon há mais de 90 dias.
+> **Dica de Infraestrutura & Segurança (23/07/2026):**
+> **Dica de Cibersegurança:** Desative o protocolo WPS nos seus Access Points UniFi e em qualquer roteador. O WPS é vulnerável a ataques de força bruta rápidos e fáceis.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
