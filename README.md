@@ -10,8 +10,8 @@ O objetivo deste projeto é fornecer a desenvolvedores, SysAdmins e engenheiros 
 
 <!-- DAILY_TIP_START -->
 > [!TIP]
-> **Dica de Infraestrutura & Segurança (23/07/2026):**
-> **Dica de Cibersegurança:** Desative o protocolo WPS nos seus Access Points UniFi e em qualquer roteador. O WPS é vulnerável a ataques de força bruta rápidos e fáceis.
+> **Dica de Infraestrutura & Segurança (24/07/2026):**
+> **Dica de FortiGate:** Para monitorar o tráfego da VPN IPsec em tempo real pela CLI, utilize o comando `get vpn ipsec tunnel details`.
 <!-- DAILY_TIP_END -->
 
 <!-- CLOUDFLARE_IPS_START -->
