@@ -1,5 +1,5 @@
 # Lista de IPs do Cloudflare para colar no Alias do pfSense
-# Gerado em: 16/09/2026 04:15:49
+# Gerado em: 16/09/2026 16:33:21
 
 173.245.48.0/20
 103.21.244.0/22
