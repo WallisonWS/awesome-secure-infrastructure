@@ -1,5 +1,5 @@
 # Consolidated IP Threat Feed for Firewalls (FortiGate / pfSense)
-# Updated at: 03/10/2026 05:36:00
+# Updated at: 03/10/2026 16:35:42
 # Total IPs: 1500
 # Sources: Emerging Threats, Blocklist.de
 # Use of this feed is public and free.
