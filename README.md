@@ -95,6 +95,15 @@ graph TD
 
 ---
 
+## ⚡ Ferramenta Interativa: DevSecOps Toolkit (Web Studio + CLI)
+
+Precisa gerar regras de firewall Zero Trust prontas para **FortiGate, pfSense, Aruba, Linux ou AWS**, calcular divisões de **VLANs (CIDR/VLSM)**, converter **JSON/CSV para SQL** ou escanear **logs em busca de IOCs e credenciais vazadas**?
+
+* 🌐 **[Abrir o DevSecOps Toolkit Online (100% Client-Side)](https://wallisonws.github.io/devsecops-toolkit/)**
+* 📦 **[Repositório Oficial (WallisonWS/devsecops-toolkit)](https://github.com/WallisonWS/devsecops-toolkit)**
+
+---
+
 ## 📚 Guias Rápidos & CLI Cheat Sheets
 
 Para facilitar a administração do dia a dia, criamos cheat sheets com os comandos CLI mais utilizados nessas plataformas:
